@@ -30,13 +30,13 @@ src
 
 运行course_agv_nav/nav.launch查看效果:
 
-![rviz](/home/zjunlict/catkin_ws_backup/course2020-wheeled_robot/document/images/c4_1.png)
+![rviz](images/c4_1.png)
 
-![path](/home/zjunlict/catkin_ws_backup/course2020-wheeled_robot/document/images/c4_2.png)
+![path](mages/c4_2.png)
 
 ---
 
 * 如何设置goal
 
-![](/home/zjunlict/catkin_ws_backup/course2020-wheeled_robot/document/images/c4_3.png)
+![](c4_3.png)
 
