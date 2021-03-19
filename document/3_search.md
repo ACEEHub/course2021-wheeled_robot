@@ -32,11 +32,11 @@ src
 
 ![rviz](images/c4_1.png)
 
-![path](mages/c4_2.png)
+![path](images/c4_2.png)
 
 ---
 
 * 如何设置goal
 
-![](c4_3.png)
+![](images/c4_3.png)
 
