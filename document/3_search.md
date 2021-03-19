@@ -23,7 +23,8 @@ src
     ├── package.xml
     ├── scripts
     │   ├── global_planner.py # 文件已存在
-    │   └── stupid_tracking.py # 已经提供
+    │   ├── your_own_planner.py # 自己创建
+    │   └── stupid_tracking.py # 文件已存在
     └── srv
         └── Plan.srv # use for global planner
 ```
@@ -40,3 +41,8 @@ src
 
 ![](images/c4_3.png)
 
+
+
+---
+
+## 附加：rviz使用&tf
