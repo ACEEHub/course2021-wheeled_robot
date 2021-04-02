@@ -53,7 +53,7 @@
 
    ```bash
    $ rostopic list
-   $ rostopic echo /tf
+   $ rostopic echo /rosout
    ```
 
 ## 建图&定位
