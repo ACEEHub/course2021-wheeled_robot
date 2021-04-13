@@ -7,7 +7,7 @@
 >
 >  2.在gazebo中载入地图，在urdf中添加sensor，可以读取laser以及imu数据
 >
->  3.添加tf，使rviz可以显示完整的sensor、map以及机器人数据
+>  // 3.添加tf，使rviz可以显示完整的sensor、map以及机器人数据
 
 ```bash
 apt-get install ros-melodic-joint-state-publisher-gui ros-melodic-joint-state-controller ros-melodic-controller-manager ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control ros-melodic-velocity-controllers ros-melodic-map-server
@@ -54,12 +54,10 @@ src
     │       └── ...
     ├── package.xml
     ├── scripts
-    │   └── robot_tf.py # tf file TODO publish tf:(robot_base->map)
+    │   └── robot_tf.py # tf file publish tf:(robot_base->map)
     └── worlds
         └── course_agv.world
 ```
-
-
 
 ## 在rviz上检查你的机器人模型
 
@@ -76,6 +74,7 @@ src
 > `roslaunch course_agv_description course_agv_rviz.launch`
 
 ![c2_1_rviz](images/c2_1.png)
+
 
 ## 在gazebo中运行，并添加controller
 
